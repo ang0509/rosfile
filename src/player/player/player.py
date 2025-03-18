@@ -7,7 +7,7 @@ class PlayerNode(Node):
         self.get_logger().info("PlayerNode初始化成功!") 
         self.getDiceNum=self.create_subscription(UInt32,"meichi",self.getDice_callback,10)
     def getDice_callback(self,dice): 
-        self.get_logger().info("掷骰子游戏开始!数字是：%d" % dice.data) 
+        self.get_logger().info("数字是：%d" % dice.data) 
         
 def main(args=None):
         rclpy.init(args=args) 
