@@ -15,3 +15,4 @@ def main(args=None):
         node=getterNode("getter")
         rclpy.spin(node) 
         rclpy.shutdown() 
+     
