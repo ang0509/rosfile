@@ -15,7 +15,7 @@ class GodNode(Node):
         self.timer = self.create_timer(timer_period, self.diceGame_callback) 
         self.timer2 = self.create_timer(timer_period, self.dice_callback)
     def diceGame_callback(self): 
-        diceNum=UInt32() 
+        diceNum=UInt32()
         diceNum.data=random.randint(1,100) 
         self.diceGame.publish(diceNum)
         self.get_logger().info("成功发布") 
