@@ -20,4 +20,4 @@ def main(args=None): #main函数，程序执行的主入口
         rclpy.init(args=args) # 初始化客户端库，必备步骤
         node=getterNode("getter") # 新建节点对象，必备步骤；传入player，将playerNode实例化
         rclpy.spin(node) # spin循环节点,保持节点运行，检测是否收到退出指令（Ctrl+C），必备步骤
-        rclpy.shutdown() # 关闭客户端库，必备步骤
+        rclpy.shutdown() # 关闭客户端库，必备步骤aa
