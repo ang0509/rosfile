@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/getter/getter.egg-info/PKG-INFO
+../../build/getter/getter.egg-info/SOURCES.txt
+../../build/getter/getter.egg-info/dependency_links.txt
+../../build/getter/getter.egg-info/entry_points.txt
+../../build/getter/getter.egg-info/requires.txt
+../../build/getter/getter.egg-info/top_level.txt
+../../build/getter/getter.egg-info/zip-safe
+getter/__init__.py
+getter/getter.py
+resource/getter
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/player/player.egg-info
+writing ../../build/player/player.egg-info/PKG-INFO
+writing dependency_links to ../../build/player/player.egg-info/dependency_links.txt
+writing requirements to ../../build/player/player.egg-info/requires.txt
+writing top-level names to ../../build/player/player.egg-info/top_level.txt
+writing manifest file '../../build/player/player.egg-info/SOURCES.txt'
+reading manifest file '../../build/player/player.egg-info/SOURCES.txt'
+writing manifest file '../../build/player/player.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ouy/rosfile/build/player/build
+creating /home/ouy/rosfile/build/player/build/lib
+creating /home/ouy/rosfile/build/player/build/lib/player
+copying player/player.py -> /home/ouy/rosfile/build/player/build/lib/player
+copying player/__init__.py -> /home/ouy/rosfile/build/player/build/lib/player
+running install
+running install_lib
+creating /home/ouy/rosfile/install/player/lib/python3.12/site-packages/player
+copying /home/ouy/rosfile/build/player/build/lib/player/player.py -> /home/ouy/rosfile/install/player/lib/python3.12/site-packages/player
+copying /home/ouy/rosfile/build/player/build/lib/player/__init__.py -> /home/ouy/rosfile/install/player/lib/python3.12/site-packages/player
+byte-compiling /home/ouy/rosfile/install/player/lib/python3.12/site-packages/player/player.py to player.cpython-312.pyc
+byte-compiling /home/ouy/rosfile/install/player/lib/python3.12/site-packages/player/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/ouy/rosfile/install/player/share/ament_index
+creating /home/ouy/rosfile/install/player/share/ament_index/resource_index
+creating /home/ouy/rosfile/install/player/share/ament_index/resource_index/packages
+copying resource/player -> /home/ouy/rosfile/install/player/share/ament_index/resource_index/packages
+copying package.xml -> /home/ouy/rosfile/install/player/share/player
+running install_egg_info
+Copying ../../build/player/player.egg-info to /home/ouy/rosfile/install/player/lib/python3.12/site-packages/player-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/ouy/rosfile/build/player/install.log'

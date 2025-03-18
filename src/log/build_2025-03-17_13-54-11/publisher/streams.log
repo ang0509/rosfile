@@ -1,0 +1,37 @@
+[0.836s] Invoking command in '/home/ouy/rosfile/src/publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ouy/rosfile/src/build/publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ouy/rosfile/src/install/publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/publisher build --build-base /home/ouy/rosfile/src/build/publisher/build install --record /home/ouy/rosfile/src/build/publisher/install.log --single-version-externally-managed install_data
+[1.032s] running egg_info
+[1.032s] creating ../build/publisher/publisher.egg-info
+[1.045s] writing ../build/publisher/publisher.egg-info/PKG-INFO
+[1.045s] writing dependency_links to ../build/publisher/publisher.egg-info/dependency_links.txt
+[1.045s] writing entry points to ../build/publisher/publisher.egg-info/entry_points.txt
+[1.045s] writing requirements to ../build/publisher/publisher.egg-info/requires.txt
+[1.045s] writing top-level names to ../build/publisher/publisher.egg-info/top_level.txt
+[1.045s] writing manifest file '../build/publisher/publisher.egg-info/SOURCES.txt'
+[1.072s] reading manifest file '../build/publisher/publisher.egg-info/SOURCES.txt'
+[1.072s] writing manifest file '../build/publisher/publisher.egg-info/SOURCES.txt'
+[1.073s] running build
+[1.073s] running build_py
+[1.073s] creating /home/ouy/rosfile/src/build/publisher/build
+[1.073s] creating /home/ouy/rosfile/src/build/publisher/build/lib
+[1.073s] creating /home/ouy/rosfile/src/build/publisher/build/lib/publisher
+[1.073s] copying publisher/publisher.py -> /home/ouy/rosfile/src/build/publisher/build/lib/publisher
+[1.073s] copying publisher/__init__.py -> /home/ouy/rosfile/src/build/publisher/build/lib/publisher
+[1.073s] running install
+[1.079s] running install_lib
+[1.092s] creating /home/ouy/rosfile/src/install/publisher/lib/python3.12/site-packages/publisher
+[1.092s] copying /home/ouy/rosfile/src/build/publisher/build/lib/publisher/publisher.py -> /home/ouy/rosfile/src/install/publisher/lib/python3.12/site-packages/publisher
+[1.092s] copying /home/ouy/rosfile/src/build/publisher/build/lib/publisher/__init__.py -> /home/ouy/rosfile/src/install/publisher/lib/python3.12/site-packages/publisher
+[1.093s] byte-compiling /home/ouy/rosfile/src/install/publisher/lib/python3.12/site-packages/publisher/publisher.py to publisher.cpython-312.pyc
+[1.093s] byte-compiling /home/ouy/rosfile/src/install/publisher/lib/python3.12/site-packages/publisher/__init__.py to __init__.cpython-312.pyc
+[1.093s] running install_data
+[1.093s] creating /home/ouy/rosfile/src/install/publisher/share/ament_index
+[1.093s] creating /home/ouy/rosfile/src/install/publisher/share/ament_index/resource_index
+[1.093s] creating /home/ouy/rosfile/src/install/publisher/share/ament_index/resource_index/packages
+[1.094s] copying resource/publisher -> /home/ouy/rosfile/src/install/publisher/share/ament_index/resource_index/packages
+[1.094s] copying package.xml -> /home/ouy/rosfile/src/install/publisher/share/publisher
+[1.094s] running install_egg_info
+[1.107s] Copying ../build/publisher/publisher.egg-info to /home/ouy/rosfile/src/install/publisher/lib/python3.12/site-packages/publisher-0.0.0-py3.12.egg-info
+[1.108s] running install_scripts
+[1.213s] Installing publisher script to /home/ouy/rosfile/src/install/publisher/lib/publisher
+[1.213s] writing list of installed files to '/home/ouy/rosfile/src/build/publisher/install.log'
+[1.241s] Invoked command in '/home/ouy/rosfile/src/publisher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ouy/rosfile/src/build/publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ouy/rosfile/src/install/publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/publisher build --build-base /home/ouy/rosfile/src/build/publisher/build install --record /home/ouy/rosfile/src/build/publisher/install.log --single-version-externally-managed install_data

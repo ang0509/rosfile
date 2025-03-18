@@ -1,0 +1,37 @@
+[1.185s] Invoking command in '/home/ouy/rosfile/src/getter': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ouy/rosfile/build/getter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ouy/rosfile/install/getter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/getter build --build-base /home/ouy/rosfile/build/getter/build install --record /home/ouy/rosfile/build/getter/install.log --single-version-externally-managed install_data
+[1.423s] running egg_info
+[1.423s] creating ../../build/getter/getter.egg-info
+[1.434s] writing ../../build/getter/getter.egg-info/PKG-INFO
+[1.434s] writing dependency_links to ../../build/getter/getter.egg-info/dependency_links.txt
+[1.434s] writing entry points to ../../build/getter/getter.egg-info/entry_points.txt
+[1.434s] writing requirements to ../../build/getter/getter.egg-info/requires.txt
+[1.434s] writing top-level names to ../../build/getter/getter.egg-info/top_level.txt
+[1.434s] writing manifest file '../../build/getter/getter.egg-info/SOURCES.txt'
+[1.474s] reading manifest file '../../build/getter/getter.egg-info/SOURCES.txt'
+[1.475s] writing manifest file '../../build/getter/getter.egg-info/SOURCES.txt'
+[1.475s] running build
+[1.475s] running build_py
+[1.476s] creating /home/ouy/rosfile/build/getter/build
+[1.476s] creating /home/ouy/rosfile/build/getter/build/lib
+[1.476s] creating /home/ouy/rosfile/build/getter/build/lib/getter
+[1.477s] copying getter/getter.py -> /home/ouy/rosfile/build/getter/build/lib/getter
+[1.477s] copying getter/__init__.py -> /home/ouy/rosfile/build/getter/build/lib/getter
+[1.478s] running install
+[1.484s] running install_lib
+[1.500s] creating /home/ouy/rosfile/install/getter/lib/python3.12/site-packages/getter
+[1.500s] copying /home/ouy/rosfile/build/getter/build/lib/getter/getter.py -> /home/ouy/rosfile/install/getter/lib/python3.12/site-packages/getter
+[1.500s] copying /home/ouy/rosfile/build/getter/build/lib/getter/__init__.py -> /home/ouy/rosfile/install/getter/lib/python3.12/site-packages/getter
+[1.500s] byte-compiling /home/ouy/rosfile/install/getter/lib/python3.12/site-packages/getter/getter.py to getter.cpython-312.pyc
+[1.501s] byte-compiling /home/ouy/rosfile/install/getter/lib/python3.12/site-packages/getter/__init__.py to __init__.cpython-312.pyc
+[1.501s] running install_data
+[1.501s] creating /home/ouy/rosfile/install/getter/share/ament_index
+[1.501s] creating /home/ouy/rosfile/install/getter/share/ament_index/resource_index
+[1.501s] creating /home/ouy/rosfile/install/getter/share/ament_index/resource_index/packages
+[1.501s] copying resource/getter -> /home/ouy/rosfile/install/getter/share/ament_index/resource_index/packages
+[1.501s] copying package.xml -> /home/ouy/rosfile/install/getter/share/getter
+[1.501s] running install_egg_info
+[1.517s] Copying ../../build/getter/getter.egg-info to /home/ouy/rosfile/install/getter/lib/python3.12/site-packages/getter-0.0.0-py3.12.egg-info
+[1.518s] running install_scripts
+[1.658s] Installing getter script to /home/ouy/rosfile/install/getter/lib/getter
+[1.658s] writing list of installed files to '/home/ouy/rosfile/build/getter/install.log'
+[1.712s] Invoked command in '/home/ouy/rosfile/src/getter' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ouy/rosfile/build/getter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ouy/rosfile/install/getter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/getter build --build-base /home/ouy/rosfile/build/getter/build install --record /home/ouy/rosfile/build/getter/install.log --single-version-externally-managed install_data

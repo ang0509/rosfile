@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/getter/getter.egg-info/PKG-INFO
+writing dependency_links to ../../build/getter/getter.egg-info/dependency_links.txt
+writing entry points to ../../build/getter/getter.egg-info/entry_points.txt
+writing requirements to ../../build/getter/getter.egg-info/requires.txt
+writing top-level names to ../../build/getter/getter.egg-info/top_level.txt
+reading manifest file '../../build/getter/getter.egg-info/SOURCES.txt'
+writing manifest file '../../build/getter/getter.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/ouy/rosfile/install/getter/lib/python3.12/site-packages/getter-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/getter/getter.egg-info to /home/ouy/rosfile/install/getter/lib/python3.12/site-packages/getter-0.0.0-py3.12.egg-info
+running install_scripts
+Installing getter script to /home/ouy/rosfile/install/getter/lib/getter
+writing list of installed files to '/home/ouy/rosfile/build/getter/install.log'

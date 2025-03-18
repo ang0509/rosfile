@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/player/player.egg-info/PKG-INFO
+../../build/player/player.egg-info/SOURCES.txt
+../../build/player/player.egg-info/dependency_links.txt
+../../build/player/player.egg-info/entry_points.txt
+../../build/player/player.egg-info/requires.txt
+../../build/player/player.egg-info/top_level.txt
+../../build/player/player.egg-info/zip-safe
+player/__init__.py
+player/player.py
+resource/player
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

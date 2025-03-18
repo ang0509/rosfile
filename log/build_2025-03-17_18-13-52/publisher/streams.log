@@ -1,0 +1,24 @@
+[1.161s] Invoking command in '/home/ouy/rosfile/src/publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ouy/rosfile/build/publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ouy/rosfile/install/publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/publisher build --build-base /home/ouy/rosfile/build/publisher/build install --record /home/ouy/rosfile/build/publisher/install.log --single-version-externally-managed install_data
+[1.397s] running egg_info
+[1.414s] writing ../../build/publisher/publisher.egg-info/PKG-INFO
+[1.414s] writing dependency_links to ../../build/publisher/publisher.egg-info/dependency_links.txt
+[1.414s] writing entry points to ../../build/publisher/publisher.egg-info/entry_points.txt
+[1.414s] writing requirements to ../../build/publisher/publisher.egg-info/requires.txt
+[1.414s] writing top-level names to ../../build/publisher/publisher.egg-info/top_level.txt
+[1.443s] reading manifest file '../../build/publisher/publisher.egg-info/SOURCES.txt'
+[1.444s] writing manifest file '../../build/publisher/publisher.egg-info/SOURCES.txt'
+[1.444s] running build
+[1.444s] running build_py
+[1.445s] copying publisher/publisher.py -> /home/ouy/rosfile/build/publisher/build/lib/publisher
+[1.445s] running install
+[1.452s] running install_lib
+[1.467s] copying /home/ouy/rosfile/build/publisher/build/lib/publisher/publisher.py -> /home/ouy/rosfile/install/publisher/lib/python3.12/site-packages/publisher
+[1.468s] byte-compiling /home/ouy/rosfile/install/publisher/lib/python3.12/site-packages/publisher/publisher.py to publisher.cpython-312.pyc
+[1.468s] running install_data
+[1.469s] running install_egg_info
+[1.485s] removing '/home/ouy/rosfile/install/publisher/lib/python3.12/site-packages/publisher-0.0.0-py3.12.egg-info' (and everything under it)
+[1.486s] Copying ../../build/publisher/publisher.egg-info to /home/ouy/rosfile/install/publisher/lib/python3.12/site-packages/publisher-0.0.0-py3.12.egg-info
+[1.487s] running install_scripts
+[1.640s] Installing publisher script to /home/ouy/rosfile/install/publisher/lib/publisher
+[1.641s] writing list of installed files to '/home/ouy/rosfile/build/publisher/install.log'
+[1.701s] Invoked command in '/home/ouy/rosfile/src/publisher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ouy/rosfile/build/publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ouy/rosfile/install/publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/publisher build --build-base /home/ouy/rosfile/build/publisher/build install --record /home/ouy/rosfile/build/publisher/install.log --single-version-externally-managed install_data

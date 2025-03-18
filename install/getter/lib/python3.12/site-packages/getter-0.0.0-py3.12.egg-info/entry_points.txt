@@ -1,0 +1,2 @@
+[console_scripts]
+getter = getter.getter:main

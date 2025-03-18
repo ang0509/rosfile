@@ -1,0 +1,35 @@
+[0.845s] Invoking command in '/home/ouy/rosfile/src/player': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ouy/rosfile/build/player/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ouy/rosfile/install/player/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/player build --build-base /home/ouy/rosfile/build/player/build install --record /home/ouy/rosfile/build/player/install.log --single-version-externally-managed install_data
+[1.050s] running egg_info
+[1.050s] creating ../../build/player/player.egg-info
+[1.062s] writing ../../build/player/player.egg-info/PKG-INFO
+[1.062s] writing dependency_links to ../../build/player/player.egg-info/dependency_links.txt
+[1.062s] writing requirements to ../../build/player/player.egg-info/requires.txt
+[1.062s] writing top-level names to ../../build/player/player.egg-info/top_level.txt
+[1.062s] writing manifest file '../../build/player/player.egg-info/SOURCES.txt'
+[1.089s] reading manifest file '../../build/player/player.egg-info/SOURCES.txt'
+[1.090s] writing manifest file '../../build/player/player.egg-info/SOURCES.txt'
+[1.090s] running build
+[1.090s] running build_py
+[1.090s] creating /home/ouy/rosfile/build/player/build
+[1.091s] creating /home/ouy/rosfile/build/player/build/lib
+[1.091s] creating /home/ouy/rosfile/build/player/build/lib/player
+[1.091s] copying player/player.py -> /home/ouy/rosfile/build/player/build/lib/player
+[1.091s] copying player/__init__.py -> /home/ouy/rosfile/build/player/build/lib/player
+[1.091s] running install
+[1.098s] running install_lib
+[1.112s] creating /home/ouy/rosfile/install/player/lib/python3.12/site-packages/player
+[1.112s] copying /home/ouy/rosfile/build/player/build/lib/player/player.py -> /home/ouy/rosfile/install/player/lib/python3.12/site-packages/player
+[1.112s] copying /home/ouy/rosfile/build/player/build/lib/player/__init__.py -> /home/ouy/rosfile/install/player/lib/python3.12/site-packages/player
+[1.113s] byte-compiling /home/ouy/rosfile/install/player/lib/python3.12/site-packages/player/player.py to player.cpython-312.pyc
+[1.113s] byte-compiling /home/ouy/rosfile/install/player/lib/python3.12/site-packages/player/__init__.py to __init__.cpython-312.pyc
+[1.113s] running install_data
+[1.113s] creating /home/ouy/rosfile/install/player/share/ament_index
+[1.113s] creating /home/ouy/rosfile/install/player/share/ament_index/resource_index
+[1.113s] creating /home/ouy/rosfile/install/player/share/ament_index/resource_index/packages
+[1.113s] copying resource/player -> /home/ouy/rosfile/install/player/share/ament_index/resource_index/packages
+[1.113s] copying package.xml -> /home/ouy/rosfile/install/player/share/player
+[1.114s] running install_egg_info
+[1.128s] Copying ../../build/player/player.egg-info to /home/ouy/rosfile/install/player/lib/python3.12/site-packages/player-0.0.0-py3.12.egg-info
+[1.129s] running install_scripts
+[1.228s] writing list of installed files to '/home/ouy/rosfile/build/player/install.log'
+[1.260s] Invoked command in '/home/ouy/rosfile/src/player' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ouy/rosfile/build/player/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ouy/rosfile/install/player/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/player build --build-base /home/ouy/rosfile/build/player/build install --record /home/ouy/rosfile/build/player/install.log --single-version-externally-managed install_data
