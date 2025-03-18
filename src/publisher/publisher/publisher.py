@@ -1,10 +1,10 @@
-import rclpy #导入ros的客户端库，必备步骤
-from rclpy.node import Node #rclpy.node是ros客户端库自带的Node类，用于创建节点
-import random #导入random库产生随机数，来模拟掷骰子的结果
-from std_msgs.msg import UInt32 #插入std_msgs中的UInt32数据类型
+import rclpy 
+from rclpy.node import Node 
+import random 
+from std_msgs.msg import UInt32 
 
 
-class GodNode(Node): #采用面向对象(OOP)的方式建立node；定义了一个GodNode的类，继承rclpy.node中的Node；
+class GodNode(Node): 
     def __init__(self,name): #定义初始化方法；或者叫构造函数。。(构造函数是个人的理解，源自C++)
         super().__init__(name) #调用父类初始化，需要传入参数name，通常name是实例化的Node的名称，即节点名字；比如本例子中节点名字是 God
         self.get_logger().info("初始化成功!") #get_logger().info是rclpy.node中的方法；
